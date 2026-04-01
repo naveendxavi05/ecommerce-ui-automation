@@ -1,0 +1,7 @@
+2026-04-01 23:47:51 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
+2026-04-01 23:47:51 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-01 23:47:58 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-01 23:47:58 [main] INFO  com.naveen.tests.SmokeTest - Page title is: Swag Labs
+2026-04-01 23:47:58 [main] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
+2026-04-01 23:47:58 [main] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
+2026-04-01 23:47:58 [main] INFO  com.naveen.base.BaseTest - Browser closed
