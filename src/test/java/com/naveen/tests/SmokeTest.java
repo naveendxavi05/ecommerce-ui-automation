@@ -6,6 +6,7 @@ import com.naveen.pages.OrderConfirmationPage;
 import com.naveen.pages.CartPage;
 import com.naveen.pages.CheckoutPage;
 import com.naveen.pages.ProductsPage;
+import com.naveen.utils.RetryAnalyzer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
@@ -13,7 +14,7 @@ import org.testng.annotations.Test;
 
 public class SmokeTest extends BaseTest {
     private static final Logger log = LogManager.getLogger(SmokeTest.class);
-    @Test(groups = {"smoke", "regression"})
+    @Test(groups = {"smoke", "regression"}, retryAnalyzer = RetryAnalyzer.class)
     public void verifyHomePageTitle() {
         String title = driver.getTitle();
         log.info("Page title is: {}", title);
@@ -21,7 +22,7 @@ public class SmokeTest extends BaseTest {
         log.info("Smoke test passed - Swag Labs title verified");
     }
 
-    @Test(groups = {"smoke", "regression"})
+    @Test(groups = {"smoke", "regression"}, retryAnalyzer = RetryAnalyzer.class)
     public void verifyCheckoutFlow() {
         LoginPage loginPage = new LoginPage(driver);
         ProductsPage productsPage = new ProductsPage(driver);

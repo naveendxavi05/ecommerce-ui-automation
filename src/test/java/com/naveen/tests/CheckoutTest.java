@@ -6,6 +6,7 @@ import com.naveen.pages.CheckoutPage;
 import com.naveen.pages.LoginPage;
 import com.naveen.pages.OrderConfirmationPage;
 import com.naveen.pages.ProductsPage;
+import com.naveen.utils.RetryAnalyzer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
@@ -15,7 +16,7 @@ public class CheckoutTest extends BaseTest {
 
     private static final Logger log = LogManager.getLogger(CheckoutTest.class);
 
-    @Test(groups = {"smoke","regression"})
+    @Test(groups = {"smoke","regression"}, retryAnalyzer = RetryAnalyzer.class)
     public void verifySuccessfulCheckout() {
         LoginPage loginPage = new LoginPage(driver);
         ProductsPage productsPage = new ProductsPage(driver);
@@ -36,7 +37,7 @@ public class CheckoutTest extends BaseTest {
         log.info("Verified successful checkout");
     }
 
-    @Test(groups = {"regression"})
+    @Test(groups = {"regression"}, retryAnalyzer = RetryAnalyzer.class)
     public void verifyCartBadgeCount() {
         LoginPage loginPage = new LoginPage(driver);
         ProductsPage productsPage = new ProductsPage(driver);
@@ -66,7 +67,7 @@ public class CheckoutTest extends BaseTest {
         log.info("Verified cart item is displayed correctly");
     }
 
-    @Test(groups = {"regression"})
+    @Test(groups = {"regression"}, retryAnalyzer = RetryAnalyzer.class)
     public void verifyCheckoutWithEmptyInfo() {
         LoginPage loginPage = new LoginPage(driver);
         ProductsPage productsPage = new ProductsPage(driver);

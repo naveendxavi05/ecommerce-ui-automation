@@ -3,16 +3,26 @@ package com.naveen.tests;
 import com.naveen.base.BaseTest;
 import com.naveen.pages.LoginPage;
 import com.naveen.pages.ProductsPage;
+import com.naveen.utils.ExtentReportManager;
+import com.naveen.utils.RetryAnalyzer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
 
     private static final Logger log = LogManager.getLogger(LoginTest.class);
 
-    @Test(groups = {"smoke","regression"})
+    @BeforeSuite
+    public void initReport() {
+        ExtentReportManager.getInstance();
+        log.info("Extent Report initialized");
+    }
+
+    @Test(groups = {"smoke","regression"}, retryAnalyzer = RetryAnalyzer.class)
     public void verifySuccessfulLogin() {
         LoginPage loginPage = new LoginPage(driver);
         ProductsPage productsPage = new ProductsPage(driver);
@@ -23,7 +33,7 @@ public class LoginTest extends BaseTest {
         log.info("Verified successful login");
     }
 
-    @Test(groups = {"regression"})
+    @Test(groups = {"regression"}, retryAnalyzer = RetryAnalyzer.class)
     public void verifyLockedOutUser() {
         LoginPage loginPage = new LoginPage(driver);
 
@@ -34,7 +44,7 @@ public class LoginTest extends BaseTest {
         log.info("Verified locked out user error: {}", error);
     }
 
-    @Test(groups = {"regression"})
+    @Test(groups = {"regression"}, retryAnalyzer = RetryAnalyzer.class)
     public void verifyInvalidPassword() {
         LoginPage loginPage = new LoginPage(driver);
 
@@ -45,7 +55,7 @@ public class LoginTest extends BaseTest {
         log.info("Verified invalid password error: {}", error);
     }
 
-    @Test(groups = {"regression"})
+    @Test(groups = {"regression"}, retryAnalyzer = RetryAnalyzer.class)
     public void verifyEmptyUsername() {
         LoginPage loginPage = new LoginPage(driver);
 
@@ -54,5 +64,10 @@ public class LoginTest extends BaseTest {
         Assert.assertTrue(error.contains("Username is required"),
                 "Expected username required error");
         log.info("Verified empty username error: {}", error);
+    }
+    @AfterSuite
+    public void generateReport() {
+        ExtentReportManager.flush();
+        log.info("Extent Report generated at test-output/ExtentReport.html");
     }
 }
