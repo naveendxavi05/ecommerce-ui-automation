@@ -1,7 +1,144 @@
-2026-04-01 23:47:51 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
-2026-04-01 23:47:51 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
-2026-04-01 23:47:58 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
-2026-04-01 23:47:58 [main] INFO  com.naveen.tests.SmokeTest - Page title is: Swag Labs
-2026-04-01 23:47:58 [main] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
-2026-04-01 23:47:58 [main] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
-2026-04-01 23:47:58 [main] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 16:49:54 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
+2026-04-05 16:49:54 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 16:50:01 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 16:50:01 [main] INFO  com.naveen.tests.SmokeTest - Page title is: Swag Labs
+2026-04-05 16:50:01 [main] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
+2026-04-05 16:50:01 [main] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
+2026-04-05 16:50:01 [main] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 17:13:02 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
+2026-04-05 17:13:02 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 17:13:06 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 17:13:06 [main] INFO  com.naveen.tests.SmokeTest - Page title is: Swag Labs
+2026-04-05 17:13:06 [main] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
+2026-04-05 17:13:06 [main] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
+2026-04-05 17:13:06 [main] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 17:15:02 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutFlow
+2026-04-05 17:15:02 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 17:15:05 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 17:15:05 [main] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 17:15:05 [main] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 17:15:05 [main] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 17:15:05 [main] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 17:15:05 [main] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 17:15:05 [main] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 17:15:05 [main] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 17:15:05 [main] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 17:15:05 [main] ERROR com.naveen.base.BaseTest - Test FAILED: verifyCheckoutFlow
+2026-04-05 17:15:05 [main] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 17:15:05 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
+2026-04-05 17:15:05 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 17:15:07 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 17:15:07 [main] INFO  com.naveen.tests.SmokeTest - Page title is: Swag Labs
+2026-04-05 17:15:07 [main] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
+2026-04-05 17:15:07 [main] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
+2026-04-05 17:15:08 [main] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 17:23:13 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutFlow
+2026-04-05 17:23:13 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 17:23:17 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 17:23:17 [main] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 17:23:17 [main] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 17:23:17 [main] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 17:23:17 [main] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 17:23:17 [main] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 17:23:17 [main] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 17:23:17 [main] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 17:23:17 [main] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 17:23:17 [main] ERROR com.naveen.base.BaseTest - Test FAILED: verifyCheckoutFlow
+2026-04-05 17:23:17 [main] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 17:23:17 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
+2026-04-05 17:23:17 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 17:23:19 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 17:23:19 [main] INFO  com.naveen.tests.SmokeTest - Page title is: Swag Labs
+2026-04-05 17:23:19 [main] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
+2026-04-05 17:23:19 [main] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
+2026-04-05 17:23:19 [main] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 17:25:11 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutFlow
+2026-04-05 17:25:11 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 17:25:15 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 17:25:15 [main] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 17:25:15 [main] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 17:25:15 [main] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 17:25:15 [main] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 17:25:15 [main] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 17:25:15 [main] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 17:25:15 [main] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 17:25:15 [main] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 17:25:15 [main] ERROR com.naveen.base.BaseTest - Test FAILED: verifyCheckoutFlow
+2026-04-05 17:25:15 [main] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 17:25:15 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
+2026-04-05 17:25:15 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 17:25:17 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 17:25:17 [main] INFO  com.naveen.tests.SmokeTest - Page title is: Swag Labs
+2026-04-05 17:25:17 [main] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
+2026-04-05 17:25:17 [main] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
+2026-04-05 17:25:17 [main] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 17:26:48 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutFlow
+2026-04-05 17:26:48 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 17:26:51 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 17:26:51 [main] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 17:26:51 [main] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 17:26:51 [main] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 17:26:51 [main] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 17:26:51 [main] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 17:26:51 [main] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 17:26:51 [main] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 17:26:51 [main] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 17:26:51 [main] ERROR com.naveen.base.BaseTest - Test FAILED: verifyCheckoutFlow
+2026-04-05 17:26:51 [main] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 17:26:51 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
+2026-04-05 17:26:51 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 17:26:54 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 17:26:54 [main] INFO  com.naveen.tests.SmokeTest - Page title is: Swag Labs
+2026-04-05 17:26:54 [main] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
+2026-04-05 17:26:54 [main] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
+2026-04-05 17:26:54 [main] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 17:34:14 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutFlow
+2026-04-05 17:34:14 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 17:34:18 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 17:34:18 [main] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 17:34:18 [main] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 17:34:18 [main] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 17:34:18 [main] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 17:34:18 [main] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 17:34:18 [main] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 17:34:18 [main] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 17:34:18 [main] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 17:34:18 [main] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 17:34:18 [main] ERROR com.naveen.base.BaseTest - Test FAILED: verifyCheckoutFlow
+2026-04-05 17:34:19 [main] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 17:34:19 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
+2026-04-05 17:34:19 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 17:34:21 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 17:34:21 [main] INFO  com.naveen.tests.SmokeTest - Page title is: Swag Labs
+2026-04-05 17:34:21 [main] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
+2026-04-05 17:34:21 [main] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
+2026-04-05 17:34:21 [main] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 17:41:17 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutFlow
+2026-04-05 17:41:17 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 17:41:20 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.CheckoutPage - Entered first name: John
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.CheckoutPage - Entered last name: Doe
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.CheckoutPage - Entered zip code: 12345
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.CheckoutPage - Filled shipping info for: John Doe
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.CheckoutPage - Clicked finish button
+2026-04-05 17:41:21 [main] INFO  com.naveen.pages.OrderConfirmationPage - Order confirmed: true
+2026-04-05 17:41:21 [main] INFO  com.naveen.tests.SmokeTest - End-to-end checkout flow passed
+2026-04-05 17:41:21 [main] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCheckoutFlow
+2026-04-05 17:41:21 [main] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 17:41:21 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
+2026-04-05 17:41:21 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 17:41:23 [main] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 17:41:23 [main] INFO  com.naveen.tests.SmokeTest - Page title is: Swag Labs
+2026-04-05 17:41:23 [main] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
+2026-04-05 17:41:23 [main] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
+2026-04-05 17:41:23 [main] INFO  com.naveen.base.BaseTest - Browser closed
