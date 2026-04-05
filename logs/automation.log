@@ -1626,3 +1626,563 @@
 2026-04-05 20:02:08 [TestNG-test-Smoke Tests-1] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
 2026-04-05 20:02:08 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
 2026-04-05 20:02:08 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 20:20:59 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyEmptyUsername
+2026-04-05 20:20:59 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 20:21:03 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 20:21:03 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 20:21:03 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Error message: Epic sadface: Username is required
+2026-04-05 20:21:03 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified empty username error: Epic sadface: Username is required
+2026-04-05 20:21:03 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyEmptyUsername
+2026-04-05 20:21:03 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 20:21:03 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyInvalidPassword
+2026-04-05 20:21:03 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 20:21:05 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 20:21:05 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 20:21:05 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 20:21:05 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 20:21:05 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Error message: Epic sadface: Username and password do not match any user in this service
+2026-04-05 20:21:05 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified invalid password error: Epic sadface: Username and password do not match any user in this service
+2026-04-05 20:21:05 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyInvalidPassword
+2026-04-05 20:21:05 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 20:21:05 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyLockedOutUser
+2026-04-05 20:21:05 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 20:21:07 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 20:21:07 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: locked_out_user
+2026-04-05 20:21:07 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 20:21:07 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 20:21:07 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Error message: Epic sadface: Sorry, this user has been locked out.
+2026-04-05 20:21:07 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified locked out user error: Epic sadface: Sorry, this user has been locked out.
+2026-04-05 20:21:07 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyLockedOutUser
+2026-04-05 20:21:07 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 20:21:08 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifySuccessfulLogin
+2026-04-05 20:21:08 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 20:21:09 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 20:21:09 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 20:21:09 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 20:21:09 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 20:21:09 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified successful login
+2026-04-05 20:21:09 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifySuccessfulLogin
+2026-04-05 20:21:10 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 20:21:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCartBadgeCount
+2026-04-05 20:21:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 20:21:11 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 20:21:11 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 20:21:11 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 20:21:11 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 20:21:11 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 20:21:11 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 20:21:11 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified cart badge count is 1
+2026-04-05 20:21:11 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCartBadgeCount
+2026-04-05 20:21:12 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 20:21:12 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCartItemDisplayed
+2026-04-05 20:21:12 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 20:21:13 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 20:21:13 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 20:21:14 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 20:21:14 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 20:21:14 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 20:21:14 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 20:21:14 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 20:21:14 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Cart item name: Sauce Labs Backpack
+2026-04-05 20:21:14 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified cart item is displayed correctly
+2026-04-05 20:21:14 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCartItemDisplayed
+2026-04-05 20:21:14 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 20:21:14 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutWithEmptyInfo
+2026-04-05 20:21:14 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Error message: Error: First Name is required
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified empty checkout info error: Error: First Name is required
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCheckoutWithEmptyInfo
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifySuccessfulCheckout
+2026-04-05 20:21:16 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 20:21:18 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 20:21:18 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 20:21:18 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 20:21:18 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 20:21:18 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 20:21:18 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 20:21:18 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 20:21:18 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 20:21:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered first name: John
+2026-04-05 20:21:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered last name: Doe
+2026-04-05 20:21:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered zip code: 12345
+2026-04-05 20:21:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Filled shipping info for: John Doe
+2026-04-05 20:21:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 20:21:39 [TestNG-test-Checkout Tests-1] WARN  com.naveen.utils.RetryAnalyzer - Retrying test: verifySuccessfulCheckout (attempt 1)
+2026-04-05 20:21:39 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifySuccessfulCheckout
+2026-04-05 20:21:54 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 20:21:54 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifySuccessfulCheckout
+2026-04-05 20:21:54 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 20:21:56 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 20:21:56 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 20:21:56 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 20:21:56 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 20:21:56 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 20:21:57 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 20:21:57 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 20:21:57 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 20:21:57 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered first name: John
+2026-04-05 20:21:57 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered last name: Doe
+2026-04-05 20:21:57 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered zip code: 12345
+2026-04-05 20:21:57 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Filled shipping info for: John Doe
+2026-04-05 20:21:57 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 20:21:57 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked finish button
+2026-04-05 20:22:18 [TestNG-test-Checkout Tests-1] INFO  com.naveen.utils.ScreenshotUtils - Screenshot saved: test-output/screenshots/verifySuccessfulCheckout_2026-04-05_20-22-17.png
+2026-04-05 20:22:18 [TestNG-test-Checkout Tests-1] ERROR com.naveen.base.BaseTest - Test FAILED: verifySuccessfulCheckout
+2026-04-05 20:22:29 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 20:22:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutFlow
+2026-04-05 20:22:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered first name: John
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered last name: Doe
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered zip code: 12345
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Filled shipping info for: John Doe
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked finish button
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.OrderConfirmationPage - Order confirmed: true
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.tests.SmokeTest - End-to-end checkout flow passed
+2026-04-05 20:22:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCheckoutFlow
+2026-04-05 20:22:32 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 20:22:32 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
+2026-04-05 20:22:32 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 20:22:33 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 20:22:33 [TestNG-test-Smoke Tests-1] INFO  com.naveen.tests.SmokeTest - Page title is: Swag Labs
+2026-04-05 20:22:33 [TestNG-test-Smoke Tests-1] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
+2026-04-05 20:22:33 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
+2026-04-05 20:22:33 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:25:04 [main] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
+2026-04-05 21:25:04 [main] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:25:10 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyEmptyUsername
+2026-04-05 21:25:10 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:25:14 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:25:14 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:25:14 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Error message: Epic sadface: Username is required
+2026-04-05 21:25:14 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified empty username error: Epic sadface: Username is required
+2026-04-05 21:25:14 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyEmptyUsername
+2026-04-05 21:25:14 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:25:14 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyInvalidPassword
+2026-04-05 21:25:14 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:25:16 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:25:16 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:25:16 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:25:16 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:25:16 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Error message: Epic sadface: Username and password do not match any user in this service
+2026-04-05 21:25:16 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified invalid password error: Epic sadface: Username and password do not match any user in this service
+2026-04-05 21:25:16 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyInvalidPassword
+2026-04-05 21:25:16 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:25:16 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyLockedOutUser
+2026-04-05 21:25:16 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:25:18 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:25:18 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: locked_out_user
+2026-04-05 21:25:18 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:25:19 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:25:19 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Error message: Epic sadface: Sorry, this user has been locked out.
+2026-04-05 21:25:19 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified locked out user error: Epic sadface: Sorry, this user has been locked out.
+2026-04-05 21:25:19 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyLockedOutUser
+2026-04-05 21:25:19 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:25:19 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifySuccessfulLogin
+2026-04-05 21:25:19 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:25:21 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:25:21 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:25:21 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:25:21 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:25:21 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified successful login
+2026-04-05 21:25:21 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifySuccessfulLogin
+2026-04-05 21:25:21 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:25:21 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCartBadgeCount
+2026-04-05 21:25:21 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:25:23 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:25:23 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:25:23 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:25:23 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:25:23 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:25:23 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 21:25:23 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified cart badge count is 1
+2026-04-05 21:25:23 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCartBadgeCount
+2026-04-05 21:25:23 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:25:23 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCartItemDisplayed
+2026-04-05 21:25:23 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:25:25 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:25:25 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:25:25 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:25:25 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:25:25 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:25:25 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 21:25:25 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 21:25:25 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Cart item name: Sauce Labs Backpack
+2026-04-05 21:25:25 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified cart item is displayed correctly
+2026-04-05 21:25:25 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCartItemDisplayed
+2026-04-05 21:25:25 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:25:25 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutWithEmptyInfo
+2026-04-05 21:25:25 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:25:27 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:25:27 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:25:27 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:25:27 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:25:27 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:25:27 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 21:25:27 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 21:25:27 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 21:25:27 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 21:25:27 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Error message: Error: First Name is required
+2026-04-05 21:25:27 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified empty checkout info error: Error: First Name is required
+2026-04-05 21:25:27 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCheckoutWithEmptyInfo
+2026-04-05 21:25:27 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:25:28 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifySuccessfulCheckout
+2026-04-05 21:25:28 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered first name: John
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered last name: Doe
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered zip code: 12345
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Filled shipping info for: John Doe
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked finish button
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.OrderConfirmationPage - Order confirmed: true
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified successful checkout
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifySuccessfulCheckout
+2026-04-05 21:25:30 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:25:30 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutFlow
+2026-04-05 21:25:30 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:25:32 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:25:32 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:25:32 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:25:32 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:25:32 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:25:32 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 21:25:32 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 21:25:32 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 21:25:32 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 21:25:32 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 21:25:33 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered first name: John
+2026-04-05 21:25:33 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered last name: Doe
+2026-04-05 21:25:33 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered zip code: 12345
+2026-04-05 21:25:33 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Filled shipping info for: John Doe
+2026-04-05 21:25:33 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 21:25:33 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked finish button
+2026-04-05 21:25:53 [TestNG-test-Smoke Tests-1] WARN  com.naveen.utils.RetryAnalyzer - Retrying test: verifyCheckoutFlow (attempt 1)
+2026-04-05 21:25:53 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCheckoutFlow
+2026-04-05 21:26:07 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:26:07 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutFlow
+2026-04-05 21:26:07 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered first name: John
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered last name: Doe
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered zip code: 12345
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Filled shipping info for: John Doe
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 21:26:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked finish button
+2026-04-05 21:26:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.utils.ScreenshotUtils - Screenshot saved: test-output/screenshots/verifyCheckoutFlow_2026-04-05_21-26-31.png
+2026-04-05 21:26:31 [TestNG-test-Smoke Tests-1] ERROR com.naveen.base.BaseTest - Test FAILED: verifyCheckoutFlow
+2026-04-05 21:26:45 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:26:45 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
+2026-04-05 21:26:45 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:26:47 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:26:47 [TestNG-test-Smoke Tests-1] INFO  com.naveen.tests.SmokeTest - Page title is: Swag Labs
+2026-04-05 21:26:47 [TestNG-test-Smoke Tests-1] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
+2026-04-05 21:26:47 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
+2026-04-05 21:26:47 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:50:51 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyEmptyUsername
+2026-04-05 21:50:51 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:50:54 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:50:55 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:50:55 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Error message: Epic sadface: Username is required
+2026-04-05 21:50:55 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified empty username error: Epic sadface: Username is required
+2026-04-05 21:50:55 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyEmptyUsername
+2026-04-05 21:50:55 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:50:55 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyInvalidPassword
+2026-04-05 21:50:55 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:50:57 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:50:57 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:50:57 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:50:57 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:50:57 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Error message: Epic sadface: Username and password do not match any user in this service
+2026-04-05 21:50:57 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified invalid password error: Epic sadface: Username and password do not match any user in this service
+2026-04-05 21:50:57 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyInvalidPassword
+2026-04-05 21:50:57 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:50:57 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyLockedOutUser
+2026-04-05 21:50:57 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:50:59 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:50:59 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: locked_out_user
+2026-04-05 21:50:59 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:50:59 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:50:59 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Error message: Epic sadface: Sorry, this user has been locked out.
+2026-04-05 21:50:59 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified locked out user error: Epic sadface: Sorry, this user has been locked out.
+2026-04-05 21:50:59 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyLockedOutUser
+2026-04-05 21:50:59 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:50:59 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifySuccessfulLogin
+2026-04-05 21:50:59 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:51:01 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:51:01 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:51:01 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:51:01 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:51:01 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified successful login
+2026-04-05 21:51:01 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifySuccessfulLogin
+2026-04-05 21:51:01 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:51:01 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCartBadgeCount
+2026-04-05 21:51:01 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:51:03 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:51:03 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:51:03 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:51:03 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:51:03 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:51:03 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 21:51:03 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified cart badge count is 1
+2026-04-05 21:51:03 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCartBadgeCount
+2026-04-05 21:51:03 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:51:03 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCartItemDisplayed
+2026-04-05 21:51:03 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:51:05 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:51:05 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:51:05 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:51:05 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:51:05 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:51:05 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 21:51:05 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 21:51:05 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Cart item name: Sauce Labs Backpack
+2026-04-05 21:51:05 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified cart item is displayed correctly
+2026-04-05 21:51:05 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCartItemDisplayed
+2026-04-05 21:51:05 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:51:05 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutWithEmptyInfo
+2026-04-05 21:51:05 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:51:07 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:51:07 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:51:07 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:51:07 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:51:07 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:51:08 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 21:51:08 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 21:51:08 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 21:51:08 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 21:51:08 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Error message: Error: First Name is required
+2026-04-05 21:51:08 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified empty checkout info error: Error: First Name is required
+2026-04-05 21:51:08 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCheckoutWithEmptyInfo
+2026-04-05 21:51:08 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:51:08 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifySuccessfulCheckout
+2026-04-05 21:51:08 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:51:09 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered first name: John
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered last name: Doe
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered zip code: 12345
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Filled shipping info for: John Doe
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked finish button
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.OrderConfirmationPage - Order confirmed: true
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified successful checkout
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifySuccessfulCheckout
+2026-04-05 21:51:10 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:51:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutFlow
+2026-04-05 21:51:10 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered first name: John
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered last name: Doe
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered zip code: 12345
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Filled shipping info for: John Doe
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 21:51:12 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked finish button
+2026-04-05 21:51:33 [TestNG-test-Smoke Tests-1] WARN  com.naveen.utils.RetryAnalyzer - Retrying test: verifyCheckoutFlow (attempt 1)
+2026-04-05 21:51:33 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCheckoutFlow
+2026-04-05 21:51:47 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:51:47 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutFlow
+2026-04-05 21:51:47 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:51:49 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:51:49 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:51:49 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:51:49 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered first name: John
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered last name: Doe
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered zip code: 12345
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Filled shipping info for: John Doe
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked finish button
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.OrderConfirmationPage - Order confirmed: true
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.tests.SmokeTest - End-to-end checkout flow passed
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCheckoutFlow
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
+2026-04-05 21:51:50 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:51:52 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:51:52 [TestNG-test-Smoke Tests-1] INFO  com.naveen.tests.SmokeTest - Page title is: Swag Labs
+2026-04-05 21:51:52 [TestNG-test-Smoke Tests-1] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
+2026-04-05 21:51:52 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
+2026-04-05 21:51:52 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:58:07 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyEmptyUsername
+2026-04-05 21:58:07 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:58:10 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:58:10 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:58:10 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Error message: Epic sadface: Username is required
+2026-04-05 21:58:10 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified empty username error: Epic sadface: Username is required
+2026-04-05 21:58:10 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyEmptyUsername
+2026-04-05 21:58:10 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:58:11 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyInvalidPassword
+2026-04-05 21:58:11 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:58:13 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:58:13 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:58:13 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:58:13 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:58:13 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Error message: Epic sadface: Username and password do not match any user in this service
+2026-04-05 21:58:13 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified invalid password error: Epic sadface: Username and password do not match any user in this service
+2026-04-05 21:58:13 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyInvalidPassword
+2026-04-05 21:58:13 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:58:13 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyLockedOutUser
+2026-04-05 21:58:13 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:58:15 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:58:15 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: locked_out_user
+2026-04-05 21:58:15 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:58:15 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:58:15 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Error message: Epic sadface: Sorry, this user has been locked out.
+2026-04-05 21:58:15 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified locked out user error: Epic sadface: Sorry, this user has been locked out.
+2026-04-05 21:58:15 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyLockedOutUser
+2026-04-05 21:58:15 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:58:15 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifySuccessfulLogin
+2026-04-05 21:58:15 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:58:17 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:58:17 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:58:17 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:58:17 [TestNG-test-Login Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:58:17 [TestNG-test-Login Tests-1] INFO  com.naveen.tests.LoginTest - Verified successful login
+2026-04-05 21:58:17 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifySuccessfulLogin
+2026-04-05 21:58:17 [TestNG-test-Login Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:58:17 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCartBadgeCount
+2026-04-05 21:58:17 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:58:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:58:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:58:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:58:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:58:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:58:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 21:58:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified cart badge count is 1
+2026-04-05 21:58:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCartBadgeCount
+2026-04-05 21:58:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:58:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCartItemDisplayed
+2026-04-05 21:58:19 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:58:21 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:58:21 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:58:21 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:58:21 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:58:21 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:58:21 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 21:58:21 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 21:58:21 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Cart item name: Sauce Labs Backpack
+2026-04-05 21:58:21 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified cart item is displayed correctly
+2026-04-05 21:58:21 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCartItemDisplayed
+2026-04-05 21:58:22 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:58:22 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutWithEmptyInfo
+2026-04-05 21:58:22 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:58:23 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:58:23 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:58:24 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:58:24 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:58:24 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:58:24 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 21:58:24 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 21:58:24 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 21:58:24 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 21:58:24 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Error message: Error: First Name is required
+2026-04-05 21:58:24 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified empty checkout info error: Error: First Name is required
+2026-04-05 21:58:24 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCheckoutWithEmptyInfo
+2026-04-05 21:58:24 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:58:24 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifySuccessfulCheckout
+2026-04-05 21:58:24 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered first name: John
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered last name: Doe
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered zip code: 12345
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Filled shipping info for: John Doe
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked finish button
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.pages.OrderConfirmationPage - Order confirmed: true
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.tests.CheckoutTest - Verified successful checkout
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifySuccessfulCheckout
+2026-04-05 21:58:26 [TestNG-test-Checkout Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:58:26 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyCheckoutFlow
+2026-04-05 21:58:26 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:58:28 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:58:28 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Entered username: standard_user
+2026-04-05 21:58:28 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Entered password
+2026-04-05 21:58:28 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.LoginPage - Clicked login button
+2026-04-05 21:58:28 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Added Sauce Labs Backpack to cart
+2026-04-05 21:58:28 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Cart badge count: 1
+2026-04-05 21:58:28 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.ProductsPage - Clicked cart icon
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Cart item displayed: true
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Clicked checkout button
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CartPage - Checkout step one URL confirmed
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered first name: John
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered last name: Doe
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Entered zip code: 12345
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Filled shipping info for: John Doe
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked continue button
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.CheckoutPage - Clicked finish button
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.pages.OrderConfirmationPage - Order confirmed: true
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.tests.SmokeTest - End-to-end checkout flow passed
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyCheckoutFlow
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Browser closed
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Starting test: verifyHomePageTitle
+2026-04-05 21:58:29 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Launching browser: chrome
+2026-04-05 21:58:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Navigated to: https://www.saucedemo.com
+2026-04-05 21:58:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.tests.SmokeTest - Page title is: Swag Labs
+2026-04-05 21:58:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.tests.SmokeTest - Smoke test passed - Swag Labs title verified
+2026-04-05 21:58:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Test PASSED: verifyHomePageTitle
+2026-04-05 21:58:31 [TestNG-test-Smoke Tests-1] INFO  com.naveen.base.BaseTest - Browser closed

@@ -1,0 +1,12 @@
+# Browser & URL
+base.url=https://www.saucedemo.com
+browser=chrome
+
+# Waits (in seconds)
+implicit.wait=10
+explicit.wait=15
+
+# Database
+db.url=jdbc:mysql://localhost:3306/ecommerce_db
+db.username=your_db_username
+db.password=your_db_password

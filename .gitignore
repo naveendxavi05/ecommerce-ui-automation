@@ -39,3 +39,12 @@ build/
 .DS_Storetarget/
 .idea/
 *.class/
+
+# Logs
+logs/
+
+# Test output
+test-output/
+
+# Config with real credentials
+src/main/resources/config.properties
