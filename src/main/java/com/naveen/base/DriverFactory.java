@@ -13,8 +13,9 @@ public class DriverFactory {
     public static void initDriver(String browser) {
         if (browser.equalsIgnoreCase("chrome")) {
             ChromeOptions options = new ChromeOptions();
+            options.addArguments("--incognito");
             options.addArguments("--disable-save-password-bubble");
-            options.addArguments("--disable-features=PasswordLeakDetection");
+            options.addArguments("--disable-features=PasswordLeakDetection,PasswordManager");
             options.addArguments("--password-store=basic");
             options.setExperimentalOption("prefs", Map.of(
                     "credentials_enable_service", false,
