@@ -8,18 +8,18 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import java.lang.reflect.Method;
 import java.time.Duration;
 
 public class BaseTest {
 
     private static final Logger log = LogManager.getLogger(BaseTest.class);
-
     protected WebDriver driver;
 
-    @BeforeMethod
-    public void setUp(ITestResult result) {
+    @BeforeMethod(alwaysRun = true)
+    public void setUp(Method method) {
         String browser = ConfigReader.getProperty("browser");
-        log.info("Starting test: {}", result.getMethod().getMethodName());
+        log.info("Starting test: {}", method.getName());
         log.info("Launching browser: {}", browser);
 
         DriverFactory.initDriver(browser);
@@ -42,7 +42,6 @@ public class BaseTest {
         } else {
             log.info("Test PASSED: {}", result.getMethod().getMethodName());
         }
-
         DriverFactory.quitDriver();
         log.info("Browser closed");
     }

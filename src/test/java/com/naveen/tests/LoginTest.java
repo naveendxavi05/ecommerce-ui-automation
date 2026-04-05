@@ -12,7 +12,7 @@ public class LoginTest extends BaseTest {
 
     private static final Logger log = LogManager.getLogger(LoginTest.class);
 
-    @Test
+    @Test(groups = {"smoke","regression"})
     public void verifySuccessfulLogin() {
         LoginPage loginPage = new LoginPage(driver);
         ProductsPage productsPage = new ProductsPage(driver);
@@ -23,7 +23,7 @@ public class LoginTest extends BaseTest {
         log.info("Verified successful login");
     }
 
-    @Test
+    @Test(groups = {"regression"})
     public void verifyLockedOutUser() {
         LoginPage loginPage = new LoginPage(driver);
 
@@ -34,7 +34,7 @@ public class LoginTest extends BaseTest {
         log.info("Verified locked out user error: {}", error);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     public void verifyInvalidPassword() {
         LoginPage loginPage = new LoginPage(driver);
 
@@ -45,7 +45,7 @@ public class LoginTest extends BaseTest {
         log.info("Verified invalid password error: {}", error);
     }
 
-    @Test
+    @Test(groups = {"regression"})
     public void verifyEmptyUsername() {
         LoginPage loginPage = new LoginPage(driver);
 

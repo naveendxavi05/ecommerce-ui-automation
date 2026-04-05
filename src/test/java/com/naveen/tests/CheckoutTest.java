@@ -15,7 +15,7 @@ public class CheckoutTest extends BaseTest {
 
     private static final Logger log = LogManager.getLogger(CheckoutTest.class);
 
-    @Test
+    @Test(groups = {"smoke","regression"})
     public void verifySuccessfulCheckout() {
         LoginPage loginPage = new LoginPage(driver);
         ProductsPage productsPage = new ProductsPage(driver);
@@ -36,7 +36,7 @@ public class CheckoutTest extends BaseTest {
         log.info("Verified successful checkout");
     }
 
-    @Test
+    @Test(groups = {"regression"})
     public void verifyCartBadgeCount() {
         LoginPage loginPage = new LoginPage(driver);
         ProductsPage productsPage = new ProductsPage(driver);
@@ -49,7 +49,7 @@ public class CheckoutTest extends BaseTest {
         log.info("Verified cart badge count is 1");
     }
 
-    @Test
+    @Test(groups = {"regression"})
     public void verifyCartItemDisplayed() {
         LoginPage loginPage = new LoginPage(driver);
         ProductsPage productsPage = new ProductsPage(driver);
@@ -66,7 +66,7 @@ public class CheckoutTest extends BaseTest {
         log.info("Verified cart item is displayed correctly");
     }
 
-    @Test
+    @Test(groups = {"regression"})
     public void verifyCheckoutWithEmptyInfo() {
         LoginPage loginPage = new LoginPage(driver);
         ProductsPage productsPage = new ProductsPage(driver);
